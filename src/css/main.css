@@ -3,7 +3,7 @@ body {
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
     text-rendering: optimizeLegibility;
-    background-color: #131b21;
+    background-color: #1d1e28;
 }
 .bgn {
     background-color: black;
@@ -140,7 +140,7 @@ ul.social-icons {
     color: #ffffff;
 }
 .commandssub {
-    color: gray;
+    color: #f26623;
 }
 .searchbox {
     background-color: #2b2a38;
@@ -191,7 +191,7 @@ ul.social-icons {
     overflow: hidden;
     transition: max-height 0.3s ease-out;
     background-color: #2f3136;
-    color: #6a707a;
+    color: #0762ff;
     text-align: left;
     display: none;
   }
