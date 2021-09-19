@@ -74,6 +74,15 @@ body {
     font-family: 'Lato', sans-serif;
 }
 
+.features2 {
+    text-align: left !important;
+    background: #1d1e28 !important;
+    padding: 160px 50px !important;
+    background-image: url("../assets/wavy-dark-by-nouridio.svg") !important;
+    background-position: bottom !important;
+    background-size: 200% !important;
+    background-repeat: no-repeat !important;
+}
 
 .features {
     text-align: center !important;
@@ -84,10 +93,21 @@ body {
     background-size: 200% !important;
     background-repeat: no-repeat !important;
 }
+.features2 .title {
+    font-size: 36px !important;
+    color: #ffffff !important;
+    line-height: 70px !important;
+}
+
 .features .title {
     font-size: 40px !important;
     color: #ffffff !important;
     line-height: 70px !important;
+}
+
+.features2 .subtitle {
+    font-size: 16px !important;
+    color: #a2a8bd;
 }
 
 .features .subtitle {
@@ -95,8 +115,16 @@ body {
     color: #a2a8bd;
 }
 
+.features2 .card-body {
+    text-align: left !important;
+}
+
 .features .card-body {
     text-align: left !important;
+}
+
+.features2 .card-title {
+    margin: 0 0 -3px !important;
 }
 
 .features .card-title {
@@ -163,13 +191,27 @@ body {
     color: #f6f9ff !important;
 }
 
+.features2 .card {
+    background: #1D1E28;
+    border-radius: 22px !important;
+    border: 4px solid #f26623;
+}
+
 .features .card {
     background: #1D1E28;
     border-radius: 22px !important;
     border: 4px solid #f26623;
 }
+.features2 .card-text {
+color: rgba(255, 255, 255, 0.46) !important
+}
+
 .features .card-text {
 color: rgba(255, 255, 255, 0.46) !important
+}
+
+.features2 .card-body {
+    padding: 40px 40px 40px 30px !important;
 }
 
 .features .card-body {
