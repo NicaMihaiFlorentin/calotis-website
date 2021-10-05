@@ -5,7 +5,7 @@ body {
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
     text-rendering: optimizeLegibility;
-    border-top: 6px #405395 solid !important;
+    border-top: 6px #00ffff solid !important;
     font-size: 16px;
 }
 
@@ -17,16 +17,16 @@ body {
  }
  .nav-link:hover {
      background: transparent !important;
-     color: #405395 !important;
+     color: #00ffff !important;
      font-weight: bold !important;
  }
 
  .login-btn {
-     border: 2px solid #405395 !important;
+     border: 2px solid #00ffff !important;
      font-size: 10px !important;
  }
  .login-btn:hover {
-     background: #405395 !important;
+     background: #00ffff !important;
  }
 .navbar {
     box-shadow: none !important
@@ -54,7 +54,7 @@ body {
     background-color: #78228a !important
 }
 .btn-secondary {
-    background-color: #405395 !important
+    background-color: #00ffff !important
 }
 .heading {
     padding: 160px 50px !important;
@@ -145,7 +145,7 @@ body {
 .card-title {
     font-size: 28px !important;
     font-weight: 600 !important;
-    color: #405395 !important;
+    color: #00ffff !important;
 }
 
 .statistics {
@@ -197,13 +197,13 @@ body {
 .features2 .card {
     background: #1D1E28;
     border-radius: 22px !important;
-    border: 4px solid #405395;
+    border: 4px solid #00ffff;
 }
 
 .features .card {
     background: #1D1E28;
     border-radius: 22px !important;
-    border: 4px solid #405395;
+    border: 4px solid #00ffff;
 }
 .features2 .card-text {
 color: rgba(255, 255, 255, 0.46) !important
@@ -242,7 +242,7 @@ color: rgba(255, 255, 255, 0.46) !important
 }
 
 .footer .nouridio a {
-    color: #405395 !important;
+    color: #00ffff !important;
     text-decoration: none !important;
 }
 
