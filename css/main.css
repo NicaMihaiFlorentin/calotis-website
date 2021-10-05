@@ -253,3 +253,21 @@ color: rgba(255, 255, 255, 0.46) !important
     text-align: center !important;
     color: #a2a8bd !important
 }
+
+::-webkit-scrollbar {
+	width: 8px;
+}
+
+::-webkit-scrollbar-track {
+	box-shadow: inset 0 0 1000px #c25623; 
+}
+
+::-webkit-scrollbar-thumb {
+	background: #f26522; 
+	border-radius: 4px;
+}
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+    background: rgb(230, 94, 30)
+
+  }
