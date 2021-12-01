@@ -24,7 +24,7 @@ body {
   #ticker-title{
     border:none;
     padding:5px 20px;
-    background:#f26522;
+    background:#00ffff;
     color:white;
   }
   #ticker-title:focus{
