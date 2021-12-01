@@ -9,6 +9,31 @@ body {
     font-size: 16px;
 }
 
+#marquee-cont {
+  background: #1b1c24;
+  margin-top:10px;
+  color:white;
+}
+#marquee-cont marquee {
+  margin-top: 5px;
+}
+#marquee-news {
+  background: #1174A8;
+  padding: 5px;
+}
+#ticker-title{
+  border:none;
+  padding:5px 20px;
+  background:#f26522;
+  color:white;
+}
+#ticker-title:focus{
+  outline:none;
+}
+
+.xmaslights{position:absolute;z-index:10;top:0;right:0;pointer-events:none;width:522px;height:233px;background-image:url(https://i.imgur.com/ARJvU9k.png);background-size:contain;background-repeat:no-repeat;background-position:center;animation-name:xmaslights;animation-duration:0.5s;animation-iteration-count:infinite}@keyframes
+xmaslights{0%,100%{filter:hue-rotate(0deg)}50%{filter:hue-rotate(45deg)}}
+
 .nav-link {
      font-size: 14px !important;
      background: transparent !important;
