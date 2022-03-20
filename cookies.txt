@@ -1,0 +1,5 @@
+# HTTrack Website Copier Cookie File
+# This file format is compatible with Netscape cookies
+qwc5ht.webwave.dev	TRUE	/	FALSE	1999999999	ww_worker	.tomcat2
+qwc5ht.webwave.dev	TRUE	/	FALSE	1999999999	cache-with-varnish	true
+
