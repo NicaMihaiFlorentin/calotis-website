@@ -162,14 +162,6 @@ body {
     max-height: 100%;
 }
 
-.quote {
-    color: #b308de;
-    font-size: 28px;
-    font-family: FontBold;
-    text-align: center;
-    margin-top: 55px;
-}
-
 .stats {
     height: 95px;
     width: 485px;
@@ -278,7 +270,6 @@ table th {
 }
 
 a:link {
-    color: #d024fb;
     text-decoration: none;
 }
 
