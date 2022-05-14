@@ -24,6 +24,10 @@ $(document).ready(function() {
         window.open("https://discord.com/api/oauth2/authorize?client_id=883014007160717312&permissions=8&scope=bot%20applications.commands", '_blank');
     });
 
+    $('.topBar-Donate').on('click', function() {
+        window.open("https://www.tipeeestream.com/nica-mihai/donation", '_blank');
+    });
+
     $(".topBar-Commands").click(function() {
         $('html, body').animate({
             scrollTop: $("#commands").offset().top

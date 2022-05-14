@@ -75,7 +75,7 @@ body {
     float: left;
 }
 
-.topBar-GetBaron, .topBar-About, .topBar-Commands {
+.topBar-GetBaron, .topBar-About, .topBar-Commands, .topBar-Donate {
     float: right;
     line-height: 61px;
 }
@@ -89,7 +89,7 @@ body {
     margin-right: 25px;
 }
 
-.topBar-GetBaron, .topBar-About, .topBar-Commands {
+.topBar-GetBaron, .topBar-About, .topBar-Commands, .topBar-Donate {
     height: 100%;
     padding-left: 22px;
     padding-right: 22px;
