@@ -34,6 +34,12 @@ $(document).ready(function() {
         }, 2000);
     });
 
+    $(".topBar-Features").click(function() {
+        $('html, body').animate({
+            scrollTop: $("#features").offset().top
+        }, 2000);
+    });
+
     $(".topBar-About").click(function() {
         $('html, body').animate({
             scrollTop: $("#about").offset().top

@@ -1,8 +1,1 @@
-<p align="center">
-  <b>Baron Bot Website</b><br>
-  https://baronbot.github.io
-  <br></br>
-  <img src="https://i.imgur.com/Thqy1Gn.png">
-  <br></br>
-  Source code for the Baron Bot website, a League Of Legends Discord bot that I built.
-</p>
+<td data-label="Usage"><a href="command_examples/profile.png" data-lightbox="profile">Control your song looping song or queue, You can even change server prefix and server dj role.</a></td>
