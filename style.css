@@ -347,6 +347,14 @@ hr {
     background-image: linear-gradient(to right, #ccc, #333, #ccc);
 }
 
+.quote {
+    color: #df18a6;
+    font-size: 28px;
+    font-family: FontBold;
+    text-align: center;
+    margin-top: 55px;
+}
+
 .serverA {
     color: #df18a6;
 }
