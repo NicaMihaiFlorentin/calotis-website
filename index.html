@@ -1,7 +1,35 @@
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head>
-
+<style>
+    div#load_screen{
+        background: #252233;
+        opacity: 1;
+        position: fixed;
+        z-index:10;
+        top: 0px;
+        height: 100%;
+        width: 100%;
+    }
+    div#load_screen > div#loading{
+        text-align: center;
+        color:#FFF;
+        width:520px;
+        height:24px;
+        margin: 300px auto;
+        font-family: FontSemiBold;
+    }
+    </style>
+    <script>
+    window.addEventListener("load", function(){
+        var load_screen = document.getElementById("load_screen");
+        document.body.removeChild(load_screen);
+    });
+    </script>
+    </head>
+    <body>
+    <div id="load_screen"><div id="loading">VERIFYING YOUR BROWSER, PLEASE WAIT...<br>DDOS PROTECTION BY NENTIN.EU</div></div>
+        
 
     <meta http-equiv="Cache-Control" content="no-cache, no-store, must-revalidate">
     <meta http-equiv="Pragma" content="no-cache">
@@ -17,6 +45,7 @@
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.4.1/css/all.css">
 </head>
+
 <!--Start of Tawk.to Script-->
 <script type="text/javascript">
     var Tawk_API=Tawk_API||{}, Tawk_LoadStart=new Date();
@@ -52,7 +81,7 @@
             <div class="baronImage">
                 <img src="imgs/baron.png">
             </div>
-
+            
             <div class="stats">
                 <div class="statsServers">
                     <div>Servers
