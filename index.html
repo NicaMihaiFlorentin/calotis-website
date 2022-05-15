@@ -26,13 +26,19 @@
 <body>
     <a class="gotopbtn" href="#"> <i class="fas fa-arrow-up"></i> </a>
     <div id="firstDiv">
-        <div class="topBar">
+        <div class="topBar2">
             <a>NENTIN.EU</a>
             <div translate="topbar.getBaron" class="topBar-GetBaron">GET NENTIN</div>
-            <div translate="topbar.commands" class="topBar-Commands">COMMANDS</div>
-            <div translate="topbar.about" class="topBar-About">ABOUT</div>
-            <div translate="topbar.Features" class="topBar-Features">FEATURES OF BOT</div>
+
             <div translate="topbar.Donate" class="topBar-Donate">DONATE TO PROJECT</div>
+            <div class="dropdown">
+                <button onclick="myFunction()" class="dropbtn">Navigation</button>
+                <div id="myDropdown" class="dropdown-content">
+                    <div translate="topbar2.commands" class="topBar2-Commands">COMMANDS</div>
+                    <div translate="topbar2.about" class="topBar2-About">ABOUT</div>
+                    <div translate="topbar2.Features" class="topBar2-Features">FEATURES OF BOT</div>
+                </div>
+              </div>
         </div>
         <div class="firstDiv-Center">
             <div class="baronImage">
@@ -240,7 +246,6 @@
             <p class="quoteHelp">If you would like to contact the developer, you can fill in the table below to report a bug or add a suggestion.</p>
         </div>
     </div>
-    
     <iframe
       id="JotFormIFrame-221341727255048"
       title="Submit a bug or suggest a feature"

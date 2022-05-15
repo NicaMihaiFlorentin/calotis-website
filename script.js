@@ -28,21 +28,39 @@ $(document).ready(function() {
         window.open("https://www.tipeeestream.com/nica-mihai/donation", '_blank');
     });
 
-    $(".topBar-Commands").click(function() {
+    $(".topBar2-Commands").click(function() {
         $('html, body').animate({
             scrollTop: $("#commands").offset().top
         }, 2000);
     });
 
-    $(".topBar-Features").click(function() {
+    $(".topBar2-Features").click(function() {
         $('html, body').animate({
             scrollTop: $("#features").offset().top
         }, 2000);
     });
 
-    $(".topBar-About").click(function() {
+    $(".topBar2-About").click(function() {
         $('html, body').animate({
             scrollTop: $("#about").offset().top
         }, 2000);
     });
 });
+
+function myFunction() {
+  document.getElementById("myDropdown").classList.toggle("show");
+}
+
+// Close the dropdown if the user clicks outside of it
+window.onclick = function(event) {
+  if (!event.target.matches('.dropbtn')) {
+    var dropdowns = document.getElementsByClassName("dropdown-content");
+    var i;
+    for (i = 0; i < dropdowns.length; i++) {
+      var openDropdown = dropdowns[i];
+      if (openDropdown.classList.contains('show')) {
+        openDropdown.classList.remove('show')
+      }
+    }
+  }
+}
