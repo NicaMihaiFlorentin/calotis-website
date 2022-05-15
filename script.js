@@ -28,6 +28,12 @@ $(document).ready(function() {
         window.open("https://www.tipeeestream.com/nica-mihai/donation", '_blank');
     });
 
+    $(".topBar2-Bug").click(function() {
+        $('html, body').animate({
+            scrollTop: $("#Bug").offset().top
+        }, 2000);
+    });
+
     $(".topBar2-Commands").click(function() {
         $('html, body').animate({
             scrollTop: $("#commands").offset().top
