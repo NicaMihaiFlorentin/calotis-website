@@ -21,8 +21,9 @@ $(document).ready(function() {
     });
 
     $('.topBar-GetBaron').on('click', function() {
-        window.open("https://nentin.eu","_self")
+        window.open("https://nentin.eu", '_self');
     });
+
 
     $('.topBar-Donate').on('click', function() {
         window.open("https://www.tipeeestream.com/nica-mihai/donation", '_blank');
