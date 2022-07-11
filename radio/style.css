@@ -82,6 +82,12 @@ body {
     background-color: #611212;
   }
 
+  .alert {
+    padding: 20px;
+    background-color: #f44336;
+    color: white;
+  }
+
   .dropdown {
     position: relative;
     display: inline-block;

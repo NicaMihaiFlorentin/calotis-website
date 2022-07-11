@@ -73,10 +73,12 @@
         let myWindow;
         
         function openWin() {
+            alert("The radio will start in a pop-up window, if you want to close the radio press stop on the web page or close the pop-up window.");
             myWindow = window.open("http://51.255.92.237:6789/stream/1/", "", "width=200,height=100");
         }
         
         function closeWin() {
+            alert("The radio pop-up window has been closed.");
             myWindow.close();
         }
         </script>

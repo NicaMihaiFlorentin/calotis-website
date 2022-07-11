@@ -68,15 +68,17 @@
         <button onclick="openWin()" class="playbtn">Play</button>
         <button onclick="closeWin()" class="stopbtn">Stop</button>
         </center>
-        
+
         <script>
         let myWindow;
         
         function openWin() {
+            alert("The radio will start in a pop-up window, if you want to close the radio press stop on the web page or close the pop-up window.");
             myWindow = window.open("http://37.59.207.68:8000/;stream.mp3/;stream.mp3", "", "width=200,height=100");
         }
         
         function closeWin() {
+            alert("The radio pop-up window has been closed.");
             myWindow.close();
         }
         </script>
