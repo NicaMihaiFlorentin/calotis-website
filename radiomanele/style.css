@@ -65,6 +65,12 @@ body {
   .stopbtn:hover {
     background-color: #611212;
   }
+
+  .whitetextradio
+{
+    color:rgb(255, 255, 255);
+}
+
 .dropbtn {
     background-color: #252233;
     color: white;
