@@ -141,7 +141,7 @@ body {
     float: left;
 }
 
-.topBar-GetBaron, .topBar-About, .topBar-Commands, .topBar-Donate, .topBar-Features, .topBar-Bug {
+.topBar-GetBaron, .topBar-About, .topBar-Commands, .topBar-Donate, .topBar-Radio, .topBar-Features, .topBar-Bug {
     float: right;
     line-height: 61px;
 }
@@ -220,7 +220,7 @@ body {
     float: left;
 }
 
-.topBar-GetBaron, .topBar-About, .topBar-Commands, .topBar-Donate, .topBar-Features, .topBar-Bug {
+.topBar-GetBaron, .topBar-About, .topBar-Commands, .topBar-Donate, .topBar-Radio, .topBar-Features, .topBar-Bug {
     float: right;
     line-height: 61px;
 }
@@ -234,7 +234,7 @@ body {
     margin-right: 25px;
 }
 
-.topBar-GetBaron, .topBar-About, .topBar-Commands, .topBar-Donate, .topBar-Features, .topBar-Bug {
+.topBar-GetBaron, .topBar-About, .topBar-Commands, .topBar-Donate, .topBar-Radio, .topBar-Features, .topBar-Bug {
     height: 100%;
     padding-left: 22px;
     padding-right: 22px;
@@ -248,6 +248,26 @@ body {
     background-color: #2b2c2d;
     cursor: pointer;
     cursor: hand;
+    -webkit-transition: background-color 100ms linear;
+    -moz-transition: background-color 100ms linear;
+    -o-transition: background-color 100ms linear;
+    -ms-transition: background-color 100ms linear;
+    transition: background-color 100ms linear;
+}
+
+.topBar-Radio {
+    background-color: #b42121;
+    cursor: pointer;
+    cursor: hand;
+    -webkit-transition: background-color 100ms linear;
+    -moz-transition: background-color 100ms linear;
+    -o-transition: background-color 100ms linear;
+    -ms-transition: background-color 100ms linear;
+    transition: background-color 100ms linear;
+}
+
+.topBar-Radio:hover {
+    background-color: #611212;
     -webkit-transition: background-color 100ms linear;
     -moz-transition: background-color 100ms linear;
     -o-transition: background-color 100ms linear;

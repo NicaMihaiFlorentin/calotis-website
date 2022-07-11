@@ -20,6 +20,11 @@ $(document).ready(function() {
         console.log("[x] Data success. ")
     });
 
+
+    $('.topBar-Radio').on('click', function() {
+        window.open("https://nentin.eu/radio","_self")
+    });
+
     $('.topBar-GetBaron').on('click', function() {
         window.open("https://discord.com/api/oauth2/authorize?client_id=883014007160717312&permissions=8&scope=bot%20applications.commands", '_blank');
     });
