@@ -1,0 +1,656 @@
+
+.text-boxes{
+    float: left;
+    width: 100%;
+	height: auto;
+	padding: 0;
+	margin: 0 auto;
+	position: static;
+  }
+  .text-boxes .text-box{
+    max-width: 400px;
+    height: auto;
+	width: 400px;
+    margin: 55px 0;
+    float: left;
+    position: static;
+  }
+  .text-boxes .text-box .topic{
+    font-size: 18px;
+    font-weight: 600;
+    color: #df18a6;
+    margin: 4px;
+    float: left;
+    position: static;
+  }
+  .text-boxes .text-box textarea{
+    height: auto;
+	width: auto;
+    padding: 30px;
+    font-size: 15px;
+    font-weight: 400;
+    outline: none;
+    border: 1px solid #df18a6;
+    border-radius: 8px;
+    background: #252233;
+    float: left;
+    position: static;  
+}
+  .text-box textarea::-webkit-scrollbar{
+    display: none;
+    position: static;
+  }
+  .text-boxes .text-box button{
+    height: 45;
+	width: 243px;
+    color: #fff;
+    background: #df18a6;
+    outline: none;
+    border: none;
+    border-radius: 8px;
+    font-size: 17px;
+    font-weight: 400;
+    margin: 8px 0;
+    cursor: pointer;
+    transition: all 0.4s ease;
+    float: left;
+    position: static;
+  }
+  .text-boxes .text-box button:hover{
+    background: #f26522;
+    position: static;
+  }
+
+@font-face {
+    font-family: FontBold;
+    src: url(fonts/bold.otf);
+}
+
+@font-face {
+    font-family: FontSemiBold;
+    src: url(fonts/semibold.otf);
+}
+
+@font-face {
+    font-family: FontBold;
+    src: url(fonts/bold.otf);
+}
+
+@font-face {
+    font-family: FontRegular;
+    src: url(fonts/regular.otf);
+}
+
+@font-face {
+    font-family: FontLight;
+    src: url(fonts/light.otf);
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+html,
+body {
+    height: 100%;
+}
+
+/* */
+.dropbtn {
+    background-color: #252233;
+    color: white;
+    padding: 16px;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+    border-radius: 10px;
+
+    font-family: FontSemiBold;
+  }
+  
+  .dropbtn:hover {
+    background-color: #df18a6;
+  }
+  
+  .dropdown {
+    position: relative;
+    display: inline-block;
+  }
+  
+  .dropdown-content {
+    bottom: -110px;
+    display: none;
+    position: absolute;
+    background-color: #252233;
+    min-width: 260px;
+    overflow: auto;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+    border-radius: 10px;
+
+    font-family: FontSemiBold;
+    text-align: center;
+  }
+  
+  .dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+  }
+  
+  .dropdown a:hover {background-color: #ddd;}
+  
+  .show {display: block;}
+  /**/
+   
+.gotopbtn{
+    border-radius: 10px;
+    color: white;
+    position: fixed;
+    width: 50px;
+    height: 50px;
+    background-color: rgba(242, 101, 34);
+    bottom: 60px;
+    right: 14px;
+  
+    text-decoration: none;
+    text-align: center;
+    line-height: 50px;
+    font-size: 50px;
+}
+
+::-webkit-scrollbar {
+	width: 10px;
+}
+
+::-webkit-scrollbar-track {
+	box-shadow: inset 0 0 1000px #f26522; 
+}
+
+::-webkit-scrollbar-thumb {
+	background: #df18a6; 
+	border-radius: 4px;
+}
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+    background: rgb(214, 36, 154); 
+}
+
+#firstDiv {
+    height: 100%;
+    width: 100%;
+    position: relative;
+    top: 0;
+    left: 0;
+    background-image: url(imgs/bgpattern.png);
+}
+
+/*topbar2*/
+.topBar2 {
+    width: 100%;
+    height: 66px;
+    background-color: #f26522;
+    position: fixed;
+    z-index: 5;
+}
+
+.topBar2Img {
+    display: none;
+    height: 50%;
+    margin-left: 15px;
+    margin-top: 17px;
+    float: left;
+}
+
+.topBar-GetBaron, .topBar-About, .topBar-Commands, .topBar-Donate, .topBar-Features, .topBar-Bug {
+    float: right;
+    line-height: 61px;
+}
+
+.topBar2>a {
+    font-family: FontBold;
+    font-size: 28px;
+    color: white;
+    margin-left: 35px;
+    line-height: 60px;
+    margin-right: 25px;
+}
+
+.topBar2-GetBaron, .topBar2-About, .topBar2-Commands, .topBar2-Donate, .topBar2-Features, .topBar2-Bug {
+    height: 100%;
+    padding-left: 22px;
+    padding-right: 22px;
+    font-family: FontSemiBold;
+    color: white;
+    font-size: 20px;
+    text-align: center;
+}
+
+.topBar2-Commands:hover, .topBar2-About:hover, .topBar2-Donate:hover, .topBar2-Features:hover, .topBar2-Bug:hover {
+    background-color: #df18a6;
+    cursor: pointer;
+    cursor: hand;
+    -webkit-transition: background-color 100ms linear;
+    -moz-transition: background-color 100ms linear;
+    -o-transition: background-color 100ms linear;
+    -ms-transition: background-color 100ms linear;
+    transition: background-color 100ms linear;
+}
+
+.topBar2-GetBaron {
+    background-color: #df18a6;
+    cursor: pointer;
+    cursor: hand;
+    -webkit-transition: background-color 100ms linear;
+    -moz-transition: background-color 100ms linear;
+    -o-transition: background-color 100ms linear;
+    -ms-transition: background-color 100ms linear;
+    transition: background-color 100ms linear;
+}
+
+.topBar2-GetBaron:hover {
+    background-color: #D6249A;
+    -webkit-transition: background-color 100ms linear;
+    -moz-transition: background-color 100ms linear;
+    -o-transition: background-color 100ms linear;
+    -ms-transition: background-color 100ms linear;
+    transition: background-color 100ms linear;
+}
+.topBar2-Bug {
+    padding-left: 20px;
+}
+
+.topBar2-Commands {
+    padding-left: 20px;
+}
+/*topbar2*/
+
+.topBar {
+    width: 100%;
+    height: 66px;
+    background-color: #f26522;
+    position: fixed;
+    z-index: 5;
+}
+
+.topBarImg {
+    display: none;
+    height: 50%;
+    margin-left: 15px;
+    margin-top: 17px;
+    float: left;
+}
+
+.topBar-GetBaron, .topBar-About, .topBar-Commands, .topBar-Donate, .topBar-Features, .topBar-Bug {
+    float: right;
+    line-height: 61px;
+}
+
+.topBar>a {
+    font-family: FontBold;
+    font-size: 28px;
+    color: white;
+    margin-left: 35px;
+    line-height: 60px;
+    margin-right: 25px;
+}
+
+.topBar-GetBaron, .topBar-About, .topBar-Commands, .topBar-Donate, .topBar-Features, .topBar-Bug {
+    height: 100%;
+    padding-left: 22px;
+    padding-right: 22px;
+    font-family: FontSemiBold;
+    color: white;
+    font-size: 20px;
+    text-align: center;
+}
+
+.topBar-Commands:hover, .topBar-About:hover, .topBar-Donate:hover, .topBar-Features:hover, .topBar-Bug:hover {
+    background-color: #2b2c2d;
+    cursor: pointer;
+    cursor: hand;
+    -webkit-transition: background-color 100ms linear;
+    -moz-transition: background-color 100ms linear;
+    -o-transition: background-color 100ms linear;
+    -ms-transition: background-color 100ms linear;
+    transition: background-color 100ms linear;
+}
+
+.topBar-GetBaron {
+    background-color: #df18a6;
+    cursor: pointer;
+    cursor: hand;
+    -webkit-transition: background-color 100ms linear;
+    -moz-transition: background-color 100ms linear;
+    -o-transition: background-color 100ms linear;
+    -ms-transition: background-color 100ms linear;
+    transition: background-color 100ms linear;
+}
+
+.topBar-GetBaron:hover {
+    background-color: #D6249A;
+    -webkit-transition: background-color 100ms linear;
+    -moz-transition: background-color 100ms linear;
+    -o-transition: background-color 100ms linear;
+    -ms-transition: background-color 100ms linear;
+    transition: background-color 100ms linear;
+}
+
+.topBar-Bug {
+    padding-left: 20px;
+}
+
+.topBar-Commands {
+    padding-left: 20px;
+}
+
+.baronImage {
+    height: 50%;
+    width: 50%;
+    margin: 0 auto;
+    margin-top: 104px;
+}
+
+.baronImage > img {
+    max-width: 100%;
+    max-height: 100%;
+}
+
+.stats {
+    height: 95px;
+    width: 485px;
+    background-color: #f26522;
+    margin: 0 auto;
+    margin-top: 50px;
+    border-radius: 10px;
+}
+
+.stats > div {
+    height: 100%;
+    width: 33.3%;
+    float: left;
+    text-align: center;
+    font-family: FontBold;
+    font-size: 28px;
+    color: white;
+}
+
+.statsServers > div,
+.statsUsers > div,
+.statsChannels > div {
+    position: relative;
+    top: 50%;
+    transform: translateY(-50%);
+    margin-top: -5px;
+}
+
+.discordServerImg {
+    right: 0;
+    position: absolute;
+    bottom: 0;
+    margin-right: 10px;
+    margin-bottom: 10px;
+}
+
+.firstDiv-Center {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+#features {
+    width: 100%;
+    background-image: url(imgs/bgpattern2.png);
+    background-color: #ffffff;
+}
+
+#features > .tabela {
+    width: 75%;
+    margin: 0 auto;
+}
+
+#commands {
+    width: 100%;
+    background-image: url(imgs/bgpattern2.png);
+    background-color: #ffffff;
+}
+
+#Bug {
+    background-color: #d024fb;
+    width: 100%;
+    background-image: url(imgs/bgpattern.png);
+    text-align: center;
+    font-family: FontRegular;
+    font-size: 20px;
+    color: white;
+}
+
+#commands > .tabela {
+    width: 75%;
+    margin: 0 auto;
+}
+
+.tabela > .commandsTitle {
+    text-align: center;
+    font-family: FontBold;
+    font-size: 28px;
+    color: white;
+    padding-top: 50px;
+    padding-bottom: 20px;
+}
+
+table {
+    border-collapse: collapse;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    table-layout: fixed;
+    font-family: FontRegular;
+    margin-top: 20px;
+}
+
+table th {
+    background-color: #f26522;
+    font-size: 15px;
+}
+
+table tr {
+    background: #f8f8f8;
+    border: 1px solid rgb(242, 101, 34);
+    padding: .35em;
+}
+
+table th,
+table td {
+    padding: .625em;
+    text-align: center;
+}
+
+table th {
+    font-size: .85em;
+    letter-spacing: .1em;
+    text-transform: uppercase;
+}
+
+a:link {
+    text-decoration: none;
+}
+
+.quoteHelp {
+    color: white;
+    font-size: 20px;
+    font-family: FontRegular;
+    text-align: center;
+    margin-top: 25px;
+    padding-bottom: 45px;
+}
+
+.slightlyColored {
+    background-color: #F3F6F6;
+}
+
+#about {
+    background-color: #d024fb;
+    width: 100%;
+    background-image: url(imgs/bgpattern.png);
+    text-align: center;
+    font-family: FontRegular;
+    font-size: 20px;
+    color: white;
+}
+
+.aboutWrapper {
+    width: 75%;
+    margin: 0 auto;
+}
+
+.aboutTitle {
+    text-align: center;
+    font-family: FontBold;
+    font-size: 28px;
+    color: white;
+    padding-top: 50px;
+    padding-bottom: 20px;
+}
+
+.aboutContent {
+    padding-bottom: 60px;
+}
+
+footer {
+    background-color: #1A1A1A;
+    text-align: center;
+    font-family: FontLight;
+    color: white;
+    font-size: 15px;
+    font-weight: bold;
+}
+
+footer > p {
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+footer > p > span {
+    color: red;
+}
+
+footer > p > br {
+    line-height: 170%;
+}
+
+footer > p > a {
+    color: #99EFFF;
+}
+
+hr {
+    border: 0;
+    height: 1px;
+    background: #333;
+    background-image: linear-gradient(to right, #ccc, #333, #ccc);
+}
+
+.quote {
+    color: #df18a6;
+    font-size: 28px;
+    font-family: FontBold;
+    text-align: center;
+    margin-top: 55px;
+}
+
+.serverA {
+    color: #df18a6;
+}
+
+@media screen and (max-width: 600px) {
+    .pinkBg {
+        background-color: rgba(208, 36, 251, 1);
+        color: white;
+    }
+    table {
+        border: 0;
+    }
+    table caption {
+        font-size: 1.3em;
+    }
+    table thead {
+        border: none;
+        clip: rect(0 0 0 0);
+        height: 1px;
+        margin: -1px;
+        overflow: hidden;
+        padding: 0;
+        position: absolute;
+        width: 1px;
+    }
+    table tr {
+        display: block;
+        margin-bottom: .625em;
+        border: 0;
+        padding: 0;
+        border-bottom: 3px solid #ddd;
+    }
+    table td {
+        border-bottom: 1px solid #ddd;
+        display: block;
+        font-size: .8em;
+        text-align: right;
+    }
+    table td:before {
+        content: attr(data-label);
+        float: left;
+        font-weight: bold;
+        text-transform: uppercase;
+    }
+    table td:last-child {
+        border-bottom: 0;
+    }
+    .baronImage {
+        height: 237px;
+        width: 126px;
+        padding-top: 30px;
+    }
+    .baronImage > img {
+        margin-top: -80px;
+    }
+    .quote {
+        font-size: 18px;
+        font-family: FontBold;
+        text-align: center;
+        margin-top: -100px;
+        margin-bottom: 20px;
+    }
+    .stats {
+        height: 95px;
+        width: 300px;
+        background-color: #36393e;
+        margin: 0 auto;
+        border-radius: 10px;
+    }
+    .stats > div {
+        height: 100%;
+        width: 33.3%;
+        float: left;
+        text-align: center;
+        font-family: FontBold;
+        font-size: 20px;
+        color: white;
+    }
+    .discordServerImg {
+        display: none;
+    }
+    .footer {
+        background-color: #1A1A1A;
+        text-align: center;
+        font-family: FontLight;
+        color: white;
+        font-size: 5px;
+        font-weight: bold;
+    }
+    footer > p {
+        font-size: 12px;
+    }
+}

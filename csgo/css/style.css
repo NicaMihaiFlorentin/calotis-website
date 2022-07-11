@@ -1,0 +1,204 @@
+/* BASE
+----------------------------------------------------------------------------- */
+html {
+	height: 100%;
+	margin-bottom: 1px; }
+
+body {
+	font-family: Verdana, Geneva, Arial, Helvetica, sans-serif;
+	color: #ffffff;
+	background: url(../images/wallpaper.png) no-repeat fixed #fff; 
+	background-size: cover;
+}
+
+h2 {
+	color: #0068a5;
+	margin: 5px 20px;
+}
+
+a {
+	text-decoration: none;
+	color: #252233;
+	font-weight: bold;
+}
+
+a:hover {
+	text-decoration: none;
+	color: #4ABDFC;
+	-webkit-transition: .5s ease-out;
+     -webkit-transition-delay: 0.1s;
+     -o-transition: .5s ease-out;
+     -o-transition-delay: 0.1s;
+     -moz-transition: .5s ease-out;
+     -moz-transition-delay: 0.1s;
+     transition: .5s ease-out;
+     transition-delay: 0.1s;
+}
+
+.wrapper {
+	width: 950px;
+	height: auto;
+	margin: -10px 0 -10px 50px;
+	box-shadow: 0 0 10px #000000;
+	background: #252233;
+}
+
+.header {
+	width: 100%;
+	height: auto;
+	padding: 0;
+	margin: 0 auto;
+}
+
+.top_menu {
+	width: 100%;
+	height: 49px;
+	margin: 8px 20px 2px 0;
+	padding: 0 0 0 0;
+	background: #f26522;
+}
+
+.top_menu li {
+    display: inline-block;
+    margin: 0;
+    float:left;
+}
+
+.top_menu a {
+    color: #fff;
+    display: block;
+    padding: 15px;
+    text-decoration: none;
+}
+
+.top_menu li:hover {
+	box-shadow: inset 0 -3px 0 #df18a6;
+    background: #252233;
+    -webkit-transition: .5s ease-out;
+     -webkit-transition-delay: 0.1s;
+     -o-transition: .5s ease-out;
+     -o-transition-delay: 0.1s;
+     -moz-transition: .5s ease-out;
+     -moz-transition-delay: 0.1s;
+     transition: .5s ease-out;
+     transition-delay: 0.1s;
+}
+
+.banner img {
+    width: 468px;
+    height: 60px;
+    margin: 3px 3px 3px 3px;
+}
+
+.content {
+	width: 100%;
+	height: auto;
+	padding: 0;
+	margin: 0 auto;
+	position: static;
+}
+
+.line_block {
+	width: 100%;
+	height: auto;
+	background: #252233;
+	box-shadow: inset 5px 0 0 #df18a6;
+	position: relative;
+	float: left;
+	margin: 5px 0;
+}
+
+.line_block h2 {
+	width: auto;
+	height: auto;
+	padding: 0;
+	color: #fff;
+	font-size: 25px;
+	float: left;
+	margin: 5px 10px;
+}
+
+.line_block h2#down {
+	width: 100px;
+	height: auto;
+	background: #df18a6;
+	margin: 0;
+	padding: 11px 0 11px 20px;
+	color: #fff;
+	font-size: 15px;
+	float: right;
+}
+
+.line_block h2#down:hover {
+	cursor: pointer;
+	box-shadow: inset -5px 0 0 #f26522;
+    background: #252233;
+    -webkit-transition: .5s ease-out;
+     -webkit-transition-delay: 0.1s;
+     -o-transition: .5s ease-out;
+     -o-transition-delay: 0.1s;
+     -moz-transition: .5s ease-out;
+     -moz-transition-delay: 0.1s;
+     transition: .5s ease-out;
+     transition-delay: 0.1s;
+}
+
+h1 {
+	box-shadow: inset 5px 0 0 #f26522;
+	background: #252233;
+	padding: 5px 10px;
+	margin: 5px 0;
+	color: #fff;
+	font-size: 25px;
+}
+
+.left_block {
+	height: auto;
+	width: 400px;
+ 	padding: 0 5px 5px 5px;
+ 	margin: 0;
+	float: left;
+	font-size: 12px;
+}
+
+.left_block img{
+	height: auto;
+	width: 400px;
+ 	padding: 0 5px 5px 5px;
+ 	margin: 0;
+	float: right;
+	font-size: 12px;
+}
+
+.right_block {
+	float: right;
+	position: relative;
+}
+
+.right_block p{
+	height: auto;
+	width: 400px;
+ 	padding: 0 5px 5px 5px;
+ 	margin: 0;
+	float: right;
+	font-size: 12px;
+}
+
+.clr {
+	clear: left;
+	clear: both;
+}
+
+.footer {
+	box-shadow: 0 0 10px #000000;
+	width: 100%;
+	height: 49px;
+	margin: 8px 20px 2px 0;
+	padding: 0 0 0 0;
+	background: #f26522;
+}
+
+.Copyright{
+	padding: 13px 0 0 10px;
+	color: #252233;
+}
