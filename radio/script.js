@@ -1,6 +1,6 @@
 $(document).ready(function() {
     $('head').append('<link href="https://u.nya.is/mzrdtf.png" rel="shortcut icon" type="image/x-icon" />');
-    
+
     $.getJSON("https://ptb.discordapp.com/api/guilds/264370940706553857/widget.json", function(result) {
 
         for(i=0; i < result.channels.length; i++){
